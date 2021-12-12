@@ -1,18 +1,24 @@
+body {
+    overflow: overlay;
+}
+
 /*
     header ////////////////////////////////////////////////////
 */
 
-header{
+header {
     background-color: darkgray;
 }
-.header{
+
+.header {
     height: 37vh;
     background-image: url(../Source/Produkte/Edan.jpg);
     background-position: center 1390px;
     align-items: center;
     opacity: 0.5;
 }
-.logo{
+
+.logo {
     opacity: 1;
     width: 18vh;
     height: 18vh;
@@ -23,27 +29,31 @@ header{
     navbar ////////////////////////////////////////////////////
 */
 
-.navigation-container{
+.navigation-container {
     display: flex;
 }
-.navigation-item{
+
+.navigation-item {
     color: #c7c7c7;
     padding: 10px 20px;
     font-weight: bold;
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.navigation-item:hover{
+
+.navigation-item:hover {
     color: white;
     padding: 10px 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-decoration: none;
 }
-.mobile-container{
+
+.mobile-container {
     display: none;
     margin-bottom: 10px;
 }
+
 .mobile-button {
     color: #c7c7c7;
     font-weight: bold;
@@ -57,12 +67,14 @@ header{
     position: relative;
 
 }
-.mobile-button:hover{
+
+.mobile-button:hover {
     color: white;
     border-bottom: 1px solid white !important;
 
 }
-.logo-small-mobile{
+
+.logo-small-mobile {
     width: 60px;
     align-items: center;
 }
@@ -78,6 +90,7 @@ header{
     color: white;
     background-color: #707070;
 }
+
 .footer-item {
     color: white;
     padding: 10px 20px;
@@ -86,6 +99,7 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: left;
 }
+
 .footer-list-item {
     color: white;
     padding: 10px 0px;
@@ -94,13 +108,15 @@ header{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: left;
 }
+
 ul {
     list-style: none;
     padding-inline-start: 0px;
 }
+
 .help-button {
     color: #5C5C5C;
-    padding: 14px 40px;
+    padding: 14px 15px;
     font-weight: lighter;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: inherit;
@@ -108,14 +124,17 @@ ul {
     border: none;
     border-radius: 8px;
 }
+
 .footer-bottom {
+    display: flex;
     color: white;
-    background-color: #23272C;
-    padding: 15px 15px;
+    padding: 55px 55px;
+    margin: 40px 40px;
     font-weight: normal;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
+
 .showroom-iframe {
     padding: 15px 15px;
     padding-left: 0px;
@@ -128,42 +147,102 @@ ul {
 .bg-light-gray {
     background-color: #707070;
 }
+
 .bg-gray {
     background-color: #23272C;
 }
+
 .bg-dark-gray {
-    background-color: #1F2125;
+    background-color: #151516;
 }
-.bg-light{
+
+.bg-light {
     background-color: #c7c7c7;
 }
-.bg-white{
+
+.bg-white {
     background-color: white;
 }
 
-.shadow-bottom{
+.shadow-bottom {
     border: 1px solid;
     border-color: transparent;
     padding: 10px;
-    box-shadow: 0px 15px 15px -15px #000
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
+
 }
 
-.shadow-top{
+.shadow-top {
     border: 1px solid;
     border-color: transparent;
     padding: 10px;
-    box-shadow: 0px -15px 10px -15px #000;
+    box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.6);
 }
 
-@media only screen and (max-width:950px){
-    .navigation-container{
+.shadow-top-bottom{
+    border: 1px solid;
+    border-color: transparent;
+    padding: 10px;
+    box-shadow:0px -7px  5px rgba(0, 0, 0, 0.6),0px 10px  5px  rgba(0, 0, 0, 0.6);
+}
+
+@media only screen and (max-width:950px) {
+    .navigation-container {
         display: none;
     }
-    .mobile-container{
+
+    .mobile-container {
         display: grid;
     }
-    .logo
-    {
+
+    .logo {
         display: none;
     }
+}
+
+#rcorners {
+    display: flex;
+    flex-direction:row;
+    margin: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
+    background: #23272C;
+    padding: 20px;
+    width: 200px;
+    height: 270px;
+}
+
+.Natasha {
+    height: 200px;
+}
+
+.test2{
+    display:block;
+}
+
+::-webkit-scrollbar {
+    /* width */
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    /* Track */
+    box-shadow: inset 0 0 5px transparent;
+    border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+	background-image: -webkit-gradient(linear,
+									   left bottom,
+									   left top,
+									   color-stop(0.44, #F22F37),
+									   color-stop(0.72, #F84B34),
+									   color-stop(0.86, #F56147)
+                                       );
+}
+
+::-webkit-scrollbar-track-piece {
+    /* not handle on */
+    background: transparent;
 }
