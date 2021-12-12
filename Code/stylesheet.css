@@ -1,0 +1,224 @@
+body {
+    background-color: #23272C;
+}
+
+header {
+    background-color: darkgray;
+}
+
+.header {
+    height: 37vh;
+    background-image: url(../Source/Produkte/Edan.jpg);
+    background-position: center 1390px;
+    align-items: center;
+    opacity: 0.5;
+}
+
+.logo {
+    opacity: 1;
+    width: 18vh;
+    height: 18vh;
+    margin-left: 60px;
+}
+
+.logo-small {
+    width: 55px;
+    height: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+    color: white;
+    background-color: #707070;
+}
+
+.footer-item {
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: left;
+}
+
+.footer-list-item {
+    color: white;
+    padding: 10px 0px;
+    font-weight: lighter;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: left;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.help-button {
+    color: #5C5C5C;
+    padding: 14px 40px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: inherit;
+    appearance: auto;
+    border: none;
+    border-radius: 8px;
+}
+
+.footer-bottom {
+    color: white;
+    background-color: #23272C;
+    padding: 15px 15px;
+    font-weight: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.showroom-iframe {
+    padding: 15px 15px;
+    padding-left: 0px;
+}
+
+.test {
+    color: white;
+}
+
+.test2 {
+    background-color: blue;
+}
+
+
+.bg-light-gray {
+    background-color: #707070;
+}
+
+.bg-gray {
+    background-color: #23272C;
+}
+
+.bg-dark-gray {
+    background-color: #1F2125;
+}
+
+
+.navigation {
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navigation a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.navigation .icon {
+    display: none;
+}
+
+@media screen and (max-width: 700px) {
+    .navigation a:not(:first-child) {
+        display: none;
+    }
+
+    .navigation a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .navigation.responsive {
+        position: relative;
+    }
+
+    .navigation.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navigation.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+
+.list-svg{
+    color:violet;
+}
+
+
+.nav{
+    align-items: center;
+
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-container{
+    align-content: center;
+    display: flex;
+    background-color: #23272C;
+    padding: 0px 20px;
+}
+.nav a{
+    display: flex!important;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+.nav:hover{
+    color: #b4b4b4 ;
+    text-decoration: none; 
+}
+
+.nav-button{
+    display: none;
+    margin: 5px;
+    border: solid;
+    border-radius: 8px;
+    border-color: violet;
+    background-color: #23272C;
+}
+
+.nav-mobile{
+    display: none !important;
+}
+
+ul{
+    list-style: none;
+    padding-inline-start: 0px;
+    padding-left: 0px !important;
+}
+
+@media only screen and (max-width:700px){
+    .nav-button{
+        display: flex;
+
+    }
+    .nav-container{
+        display: flex;    
+    }
+    .nav-mobile{
+        display:  flex;
+    }
+}
+
+#navMobile{
+    overflow: hidden;
+    transition: 0.5s;
+}

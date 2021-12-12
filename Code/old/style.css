@@ -20,7 +20,7 @@ html, body {
 }
 
 .header{
-    background-image:url(../Source/Produkte/Steve.jpg);
+    background-image:url(../../Source/Produkte/Steve.jpg);
     background-position-y: -260px;
     background-size: cover;
     width: 100%;
