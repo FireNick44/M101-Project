@@ -1,15 +1,15 @@
 body {
     overflow: overlay;
+    font-family: 'Assistant', sans-serif; 
 }
-
-/*
-    header ////////////////////////////////////////////////////
-*/
+.container{
+    padding: 0px 0px !important;
+}
+/* header //////////////////////////////////////////////////*/
 
 header {
     background-color: darkgray;
 }
-
 .header {
     height: 60vh;
     background-image: url(../../Source/Produkte/Edan.jpg);
@@ -17,7 +17,6 @@ header {
     align-items: center;
     opacity: 0.5;
 }
-
 .logo {
     opacity: 1;
     width: 18vh;
@@ -25,32 +24,26 @@ header {
     margin-left: 60px;
 }
 
-/*
-    navbar ////////////////////////////////////////////////////
-*/
-
+/* navbar //////////////////////////////////////////////////*/
 .navigation-container {
     display: flex;
+    justify-content: center;
 }
-
 .navigation-item {
     color: #c7c7c7;
     padding: 10px 20px;
     font-weight: bold;
+    font-size: 18px;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 .navigation-item:hover {
     color: #F56147;
     transition: 0.3s;
 }
-
 .mobile-container {
     display: none;
     margin-bottom: 10px;
 }
-
 .mobile-button {
     color: #c7c7c7;
     font-weight: bold;
@@ -58,27 +51,39 @@ header {
     background-color: #23272C;
     border-bottom: 1px solid #c7c7c7 !important;
     display: block;
-
     min-width: 100%;
     padding: 16px 8px 16px 16px;
     position: relative;
-
 }
-
 .mobile-button:hover {
     color: white;
     border-bottom: 1px solid white !important;
-
 }
-
 .logo-small-mobile {
     width: 60px;
     align-items: center;
 }
+/* main //////////////////////////////////////////////////*/
+.location{
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 10px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 2px solid;
+    border-color: #23272C;
+    animation: c 2s infinite;
+}
 
-/*
-    footer ////////////////////////////////////////////////////
-*/
+@keyframes c{
+    0%  { color: #F84B34; }
+    50% { color: #f3674e; }
+    100%{ color: #F84B34; }
+}
+
+/* footer //////////////////////////////////////////////////*/
 .footer {
     display: flex;
     flex-wrap: wrap;
@@ -88,52 +93,43 @@ header {
     color: white;
     background-color: #707070;
 }
-
 .footer-item {
     width: 25%;
     color: white;
     padding: 5px 10px;
     font-weight: bold;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: left;
 }
-
 .footer-list-item {
     list-style: none;
     color: white;
     padding: 10px 0px;
     font-weight: lighter;
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     justify-content: left;
     margin-left: 0px;
 }
-
 .footer-list-item:hover {
     color: #F56147;
     transition: 0.3s;
 }
-
 .no-ul {
     list-style: none;
     text-decoration: none;
     margin: 0px;
     padding: 0px;
 }
-
 p {
     margin: 0px !important;
     font-weight: lighter;
     overflow-wrap: break-word;
 }
-
 .help-button {
     margin-top: 15px;
     color: #5C5C5C;
     padding: 14px 15px;
     font-weight: lighter;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: inherit;
     appearance: auto;
     border: none;
@@ -147,22 +143,20 @@ p {
     font-weight: lighter;
     display: block;
 }
-
+.showroom-iframe {
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px;
+}
 .footer-bottom {
     display: flex;
     justify-content: center;
     color: white;
     margin: 40px 40px;
     font-weight: normal;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.showroom-iframe {
-    width: 100%;
-    height: 100%;
-    padding: 0px 0px;
-}
-
+/*Responsive //////////////////////////////////////////////////*/
 @media only screen and (max-width:992px) {
     .footer-item{
         width: 50%;
@@ -170,7 +164,6 @@ p {
     }
 
 }
-
 @media only screen and (max-width:700px) {
     .footer-item{
         width: 100%;
@@ -179,31 +172,42 @@ p {
     }
 
 }
+@media only screen and (max-width:950px) {
+    .navigation-container {
+        display: none;
+    }
+    .mobile-container {
+        display: grid;
+    }
+    .logo {
+        display: none;
+    }
+    .header{
+        height: 38vh;
+    }
+}
 
+/*Colors //////////////////////////////////////////////////*/
 .white {
     color: white;
 }
-
 .bg-light-gray {
     background-color: #707070;
 }
-
 .bg-gray {
     background-color: #23272C;
 }
-
 .bg-dark-gray {
     background-color: #151516;
 }
-
 .bg-light {
     background-color: #c7c7c7;
 }
-
 .bg-white {
     background-color: white;
 }
 
+/*Shadows //////////////////////////////////////////////////*/
 .shadow-bottom {
     border: 1px solid;
     border-color: transparent;
@@ -211,14 +215,12 @@ p {
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.6);
 
 }
-
 .shadow-top {
     border: 1px solid;
     border-color: transparent;
     padding: 10px;
     box-shadow: 0px -5px 5px rgba(0, 0, 0, 0.6);
 }
-
 .shadow-top-bottom {
     border: 1px solid;
     border-color: transparent;
@@ -226,59 +228,14 @@ p {
     box-shadow: 0px -7px 5px rgba(0, 0, 0, 0.6), 0px 10px 5px rgba(0, 0, 0, 0.6);
 }
 
-@media only screen and (max-width:950px) {
-    .navigation-container {
-        display: none;
-    }
-
-    .mobile-container {
-        display: grid;
-    }
-
-    .logo {
-        display: none;
-    }
-}
-
-#rcorners {
-    display: flex;
-    flex-direction: row;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-    border-radius: 25px;
-    background: #23272C;
-    padding: 20px;
-    width: 500px;
-    height: 400px;
-    margin-top: 20px;
-}
-
-#rcorners:hover {
-    box-shadow: 5px 5px 5px rgba(202, 62, 62, 0.801);
-    transition: 0.3s;
-}
-
-.Natasha {
-    height: 200px;
-    shape-outside: url(../Source/Produkte-liquid/Natasha.png);
-    shape-margin: 20px;
-    margin: 20px;
-}
-
-.test2 {
-    display: block;
-}
-
+/*Scrollbar //////////////////////////////////////////////////*/
 ::-webkit-scrollbar {
-    /* width */
     width: 12px;
 }
-
 ::-webkit-scrollbar-track {
-    /* Track */
     box-shadow: inset 0 0 5px transparent;
     border-radius: 8px;
 }
-
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background-image: -webkit-gradient(linear,
@@ -288,7 +245,6 @@ p {
             color-stop(0.72, #F84B34),
             color-stop(0.86, #F56147));
 }
-
 ::-webkit-scrollbar-track-piece {
     /* not handle on */
     background: transparent;

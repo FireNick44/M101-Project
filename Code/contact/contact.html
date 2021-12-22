@@ -41,20 +41,21 @@
             <div class="container">
                 <div class="navigation-container">
                     <a href="../products/products.html" class="navigation-item">Produkte</a>
-                    <a href="../service/service.html"   class="navigation-item">Dienstleistungen</a>
+                    <a href="../service/service.html" class="navigation-item">Dienstleistungen</a>
                     <a href="../about-us/about-us.html" class="navigation-item">Über uns</a>
-                    <a href="../contact/contact.html"   class="navigation-item">Kontakt</a>
+                    <a href="../contact/contact.html" class="navigation-item">Kontakt</a>
                 </div>
 
                 <div class="mobile-container">
                     <button type="button" class="mobile-button">
                         <img class="logo-small-mobile" src="../../Source/logo-small.png" alt="logo-small">
                     </button>
-                    
-                    <form action="../products/products.html"><button type="submit" class="mobile-button">Produkte</button></form>
-                    <form action="../service/service.html"><button type="submit" class="mobile-button">Dienstleistungen</button></form>
-                    <form action="../about-us/about-us.html"><button type="submit" class="mobile-button">Über uns</button></form>
-                    <form action="../contact/contact.html"><button type="submit" class="mobile-button">Kontakt</button></form>
+
+                    <form action="../products/products.html"><button type="button" class="mobile-button">Produkte</button></form>
+                    <form action="../service/service.html"><button type="button" class="mobile-button">Dienstleistungen</button></form>
+                    <form action="../about-us/about-us.html"><button type="button" class="mobile-button">Über uns</button></form>
+                    <form action="../contact/contact.html"><button type="button" class="mobile-button">Kontakt</button>
+                    </form>
                 </div>
             </div>
         </div>
@@ -63,11 +64,57 @@
     <main bg-white>
         <div class="container white">
             <div class="location">
-                Produkte / Natasha
+                Kontakt
+            </div>
+            <div style="padding-left: 10px;">
+                Um mit uns in Kontakt zu treten, verwenden Sie bitte entweder das Kontaktformular oder rufen uns direkt
+                an.
+            </div>
+            <div class="kontakt-center">
+                <div class="kontakt-container">
+                    <div class="kontakt-center-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-phone" width="40"
+                            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <path
+                                d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2">
+                            </path>
+                        </svg>
+                    </div>
+                    <div class="kontakt-space">Administration
+                        <a class="tel-ref" href="tel:0415552505">041 555 25 05</a>
+                    </div>
+                    <div class="kontakt-space">Technische Fragen
+                        <a class="tel-ref" href="tel:0415552506">041 555 25 06</a>
+                    </div>
+                    <div class="kontakt-space">Bestellungen
+                        <a class="tel-ref" href="tel:0415552507">041 555 25 07</a>
+                    </div>
+                </div>
             </div>
 
-            <div style="margin: 500px; color: white;">Inhalt</div>
-
+            <div class="kontakt-center">
+                <div class="kontakt-container">
+                    <div class="kontakt-center-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-mail" width="40"
+                            height="40" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                            <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+                            <polyline points="3 7 12 13 21 7"></polyline>
+                        </svg>
+                    </div>
+                    <div>
+                        <form class="form-container">
+                            <input class="form-item" name="name" type="text" placeholder="Name" />
+                            <input class="form-item" name="email" type="text" placeholder="Email" />
+                            <textarea class="form-item" name="text" type="text" placeholder="Text"></textarea>
+                            <input class="form-item-send" type="submit" value="Senden" />
+                        </form>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 

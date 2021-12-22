@@ -5,6 +5,7 @@ body {
 .container{
     padding: 0px 0px !important;
 }
+
 /* header //////////////////////////////////////////////////*/
 
 header {
@@ -63,6 +64,7 @@ header {
     width: 60px;
     align-items: center;
 }
+
 /* main //////////////////////////////////////////////////*/
 .location{
     display: flex;
@@ -76,7 +78,98 @@ header {
     border-color: #23272C;
     animation: c 2s infinite;
 }
-
+.kontakt-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: solid;
+    border-radius: 8px;
+    border-color: #23272C;
+    background: #23272C;
+    width: 100%;
+    padding: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition:.2s all; 
+}
+.kontakt-container:hover{
+    transition: 2s all;
+    border: solid;
+    border-color: #f73f27cb;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.kontakt-space{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 2px solid;
+    border-color: #505050;
+    font-weight:500;
+    font-size: 15px;
+}
+.kontakt-center-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    border-color: #ffffff;
+}
+.kontakt-center{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.tel-ref{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .3s all;
+}
+.tel-ref:hover{
+    color: #F56147;
+    padding-right: 10px;
+    transition: 0.3s;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.form-item{
+    color:white;
+    font-size: 18px;
+    border-radius: 8px;
+    line-height: 22px;
+    background-color: transparent;
+    border:2px solid #505050;
+    padding: 13px;
+    margin-top: 15px;
+    outline: 0;
+    transition: all 0.3s;
+}
+.form-item:focus{
+    border: 2px solid #F56147;
+}
+.form-item-send{
+    color:white;
+    border-radius: 8px;
+    border: none;
+    padding: 13px;
+    margin-top: 15px;
+    background-color: #5C5C5C;
+}
+.form-item-send:hover{
+    background-color: #F56147;
+    transition: 0.3s;
+}
+textarea{
+    height: 300px;
+    font-weight: normal;
+    resize: vertical;
+}
 @keyframes c{
     0%  { color: #F84B34; }
     50% { color: #f3674e; }
@@ -176,9 +269,11 @@ p {
     .navigation-container {
         display: none;
     }
+
     .mobile-container {
         display: grid;
     }
+
     .logo {
         display: none;
     }
