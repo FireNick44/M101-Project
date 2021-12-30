@@ -93,10 +93,17 @@ h1{
 .smart{
     display: flex;
     justify-content: center;
+    color: white;
     font-weight:700;
     font-size: 80px;
 }
-
+.smart-text{
+    color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    border-top:2px solid #23272C;
+    font-weight: normal;
+}
 .lix{
     list-style: none;
     padding-left: 20px;
@@ -194,7 +201,9 @@ p {
         width: 50%;
         padding-bottom: 20px;
     }
-
+    .service-info-container{
+        margin:60px 20% 60px 20%;
+    }
 }
 @media only screen and (max-width:767px) {
     .service-info-container{
@@ -224,7 +233,26 @@ p {
         height: 38vh;
     }
 }
+@media only screen and (max-width:650px){
+    .smart{
+        font-size: 60px;
+    }
 
+}
+@media only screen and (max-width:500px){
+    .smart{
+        font-size: 30px;
+    }
+    .smart-text{
+        font-size: 15px;
+    }
+    .lix{
+        font-size: 16px;
+    }
+    .service-start-text{
+        font-size: 15px;
+    }
+}
 /*Colors //////////////////////////////////////////////////*/
 .white {
     color: white;

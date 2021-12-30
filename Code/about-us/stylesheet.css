@@ -76,11 +76,164 @@ header {
     border-color: #23272C;
     animation: c 2s infinite;
 }
-
 @keyframes c{
     0%  { color: #F84B34; }
     50% { color: #f3674e; }
     100%{ color: #F84B34; }
+}
+.text{
+    font-weight: normal;
+    margin-bottom: 5px !important;
+}
+.h1-titel{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 20px !important;
+    padding-left: 10px;
+    border-bottom:2px solid #23272C;
+}
+.team-container{    
+    border: solid;
+    border-radius: 8px;
+    border-color: #23272C;
+    background: #23272C;
+    width: 350px;
+    height: 400px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition:.2s all;
+}
+.team-container:hover{
+    transition: 2s all;
+    border: solid;
+    border-color: #f73f27cb;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.team-container:hover .team-container-info .info-img img{
+    transition: 2s all;
+    opacity: 0.6;
+}
+.team-container-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.info-img{
+    height: 250px;
+    width: 100%;
+}
+.info-img img{
+    width: 100%;
+    border-radius: 8px;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    margin: 20px 0px 0px 0px;
+    border-bottom: 2px solid;
+    border-color: #505050;
+}
+.info-name{
+    font-weight: bold;
+    font-size: 18px;
+    animation: c 2s infinite;
+    padding: 10px 10px;
+    border-bottom: 2px solid;
+    border-color: #505050;
+}
+.info-contact{
+    padding: 10px 10px 20px 10px;
+    font-style:unset;
+    font-size: 15px;
+}
+.info-rang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 5px 5px;
+    border-top: 2px solid;
+    border-color: #505050;
+    height: 100%;
+}
+.ceo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.unter-ceo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.center{
+    display: flex;
+    justify-content: center;
+
+}
+.website-container{
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    border: solid;
+    border-radius: 8px;
+    border-color: #23272C;
+    background: #23272C;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition:.2s all; 
+}
+.website-container:hover{
+    transition: 2s all;
+    border: solid;
+    border-color: #f73f27cb;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.website-space{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 10px;
+    border-bottom: 2px solid;
+    border-color: #505050;
+    font-weight:500;
+    font-size: 15px;
+}
+.website-center-icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid;
+    border-color: #ffffff;
+}
+.website-center{
+    padding-top: 20px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+}
+.web-ref{
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    transition: .3s all;
+}
+.web-ref:hover{
+    color: #F56147;
+    padding-right: 10px;
+    transition: 0.3s;
 }
 
 /* footer //////////////////////////////////////////////////*/
@@ -155,14 +308,25 @@ p {
     margin: 40px 40px;
     font-weight: normal;
 }
-
+.impressum-container{
+    margin-left: 40px;
+}
 /*Responsive //////////////////////////////////////////////////*/
 @media only screen and (max-width:992px) {
     .footer-item{
         width: 50%;
         padding-bottom: 20px;
     }
-
+    .team-container{
+        width: 80% !important;
+        height: 450px !important;
+    }
+    .info-img{
+        width: 400px !important; 
+    }
+    .info-img .img{
+        margin-left: 16%;
+    }
 }
 @media only screen and (max-width:700px) {
     .footer-item{
@@ -170,7 +334,27 @@ p {
         padding-top: 20px;
         border-bottom: 2px solid;
     }
-
+}
+@media only screen and (max-width:767px) {
+    .ceo{
+        
+        width: 100% !important;
+    }
+    .unter-ceo{
+        width: 100% !important;
+    }
+    .team-container{
+        width: 100% !important;
+        height: 450px !important;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .info-img{
+        width: 80% !important;
+    }
+    .info-img .img{
+        margin-left: 10%;
+    }
 }
 @media only screen and (max-width:950px) {
     .navigation-container {
