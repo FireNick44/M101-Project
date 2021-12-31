@@ -2,7 +2,7 @@
 
 Dieses Projekt ist meine Abschlussarbeit für das Modul 101.
 
-In dieser Arbeit vertiefte ich mich in die Strukturen von HTML und CSS.
+In dieser Arbeit verbesserte ich meine Kenntnisse in HTML und CSS.
 Mein Programm enthält noch ein paar Fehler, jedoch find ich es ein gelungenes Projekt.
 
 Für die Hintergründe habe ich diverse Bilder von Unsplash benutz.
