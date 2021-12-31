@@ -108,7 +108,7 @@ header {
     transition:.2s all;
 }
 .team-container:hover{
-    transition: 2s all;
+    transition: .2s all;
     border: solid;
     border-color: #f73f27cb;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
