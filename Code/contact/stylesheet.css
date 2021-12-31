@@ -47,6 +47,7 @@ header {
 }
 .mobile-button {
     color: #c7c7c7;
+    text-decoration: none !important;
     font-weight: bold;
     border: none;
     background-color: #23272C;

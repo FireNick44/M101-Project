@@ -63,6 +63,7 @@ header {
     width: 60px;
     align-items: center;
 }
+
 /* main //////////////////////////////////////////////////*/
 .location{
     display: flex;
@@ -115,7 +116,6 @@ h1{
     color: #aaaaaa;
     font-size: 18px;
 }
-
 @keyframes c{
     0%  { color: #F84B34; }
     50% { color: #f3674e; }
@@ -253,6 +253,7 @@ p {
         font-size: 15px;
     }
 }
+
 /*Colors //////////////////////////////////////////////////*/
 .white {
     color: white;

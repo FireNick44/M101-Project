@@ -63,6 +63,7 @@ header {
     width: 60px;
     align-items: center;
 }
+
 /* main //////////////////////////////////////////////////*/
 .location{
     display: flex;
@@ -146,7 +147,6 @@ header {
     transition: 0.3s;
     margin-right: 15px;
 }
-
 @keyframes v{
     0%  { color: #ff3232; }
     25% { color: #F84B34; }
@@ -154,7 +154,6 @@ header {
     75% { color: #F84B34; }
     100%{ color: #ff3232; }
 }
-
 @keyframes c{
     0%  { color: #F84B34; }
     50% { color: #f3674e; }
