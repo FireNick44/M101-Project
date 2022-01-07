@@ -33,7 +33,7 @@ button {
 }
 @media (min-width: 1400px){
     .container{
-        max-width: 1320px;
+        max-width: 1220px;
     }
 }
 
@@ -143,8 +143,8 @@ header {
     height: 130px;
 }
 .who-container{
-    height: 400px;
-    width: 350px;
+    height: 350px;
+    width: 300px;
     margin: 20px;
     padding: 20px;
     display: flex;
@@ -272,6 +272,7 @@ header {
     writing-mode:vertical-rl;
     text-decoration: none;
     transition: 0.3s;
+    display: none;
     
 }
 .news-link-text:hover{
@@ -298,6 +299,7 @@ header {
 /* footer //////////////////////////////////////////////////*/
 .footer {
     display: flex;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-top: 40px;
     margin-bottom: 40px;
@@ -306,7 +308,7 @@ header {
     background-color: #707070;
 }
 .footer-item {
-    width: 25%;
+    width: 23%;
     color: white;
     padding: 5px 10px;
     font-weight: bold;
@@ -332,7 +334,7 @@ header {
     margin: 0px;
     padding: 0px;
 }
-p {
+p{
     margin: 0px !important;
     font-weight: lighter;
     overflow-wrap: break-word;
@@ -369,6 +371,13 @@ p {
 }
 
 /*Responsive //////////////////////////////////////////////////*/
+@media only screen and (max-width:1200px) {
+    .footer-item{
+        width: 20%;
+        padding-bottom: 20px;
+    }
+
+}
 @media only screen and (max-width:992px) {
     .footer-item{
         width: 50%;
