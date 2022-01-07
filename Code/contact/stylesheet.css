@@ -19,10 +19,12 @@ header {
     opacity: 0.5;
 }
 .logo {
-    opacity: 1;
     width: 18vh;
     height: 18vh;
     margin-left: 60px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
 }
 
 /* navbar //////////////////////////////////////////////////*/

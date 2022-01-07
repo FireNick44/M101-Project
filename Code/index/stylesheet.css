@@ -18,10 +18,12 @@ header {
     opacity: 0.5;
 }
 .logo {
-    opacity: 1;
     width: 18vh;
     height: 18vh;
     margin-left: 60px;
+    position: absolute;
+    top: 150px;
+    left: 20px;
 }
 
 /* navbar //////////////////////////////////////////////////*/
@@ -81,6 +83,52 @@ header {
     0%  { color: #F84B34; }
     50% { color: #f3674e; }
     100%{ color: #F84B34; }
+}
+.text{
+    font-weight: normal;
+    margin-bottom: 5px !important;
+}
+.who-are{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.who-title{
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 25px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-bottom: 2px solid;
+    border-color: #505050;
+    animation: c 2s infinite;
+}
+.who-text{
+    margin: 10px !important;
+    font-weight: normal;
+    margin-bottom: 5px !important;
+    height: 130px;
+}
+.who-container{
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background: #23272C;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
+    transition:.2s all; 
+}
+.who-container:hover{
+    transition: .2s all;
+    box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.6);
+}
+.svg-logo{
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
 }
 .text{
     font-weight: normal;
@@ -354,7 +402,7 @@ p {
         height: 600px;
     }
     .news-box.three{
-        height: 1000px
+        height: 1000px;
     }
 }
 
