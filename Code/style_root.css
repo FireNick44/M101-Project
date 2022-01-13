@@ -43,7 +43,7 @@ header {
     background-color: darkgray;
 }
 .header {
-    height: 60vh;
+    height: 500px;
     background-image: url(../../Source/Produkte/Edan.jpg);
     background-position: center 1390px;
     align-items: center;
