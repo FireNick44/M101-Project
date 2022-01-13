@@ -3,26 +3,20 @@
 <!--Deutsch-->
 <html lang="de">
 
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
     <!--CSS Link-->
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="../style_root.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-
-    <!--bootstrap Framework-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
-    </script>
 
     <!--Browser-Icon + Titel-->
     <link rel="shortcut icon" href="../../Source/favicon.ico" />
@@ -31,7 +25,7 @@
 
 <body class="bg-dark-gray">
     <header>
-        <div class="header d-flex">        
+        <div class="header d-flex">
         </div>
         <a href="../../Code/index/index.html">
             <img class="logo" src="../../Source/logo.png" alt="logo">
@@ -54,10 +48,10 @@
                             <img class="logo-small-mobile" src="../../Source/logo-small.png" alt="logo-small">
                         </button>
                     </a>
-                    <form action="../products/products.html"><button type="submit" class="mobile-button">Produkte</button></form>
-                    <form action="../service/service.html"><button type="submit" class="mobile-button">Dienstleistungen</button></form>
-                    <form action="../about-us/about-us.html"><button type="submit" class="mobile-button">Über uns</button></form>
-                    <form action="../contact/contact.html"><button type="submit" class="mobile-button">Kontakt</button></form>
+                    <a style="text-decoration: none;" href="../products/products.html"><button type="submit" class="mobile-button">Produkte</button></a>
+                    <a style="text-decoration: none;" href="../service/service.html"><button type="submit" class="mobile-button">Dienstleistungen</button></a>
+                    <a style="text-decoration: none;" href="../about-us/about-us.html"><button type="submit" class="mobile-button">Über uns</button></a>
+                    <a style="text-decoration: none;" href="../contact/contact.html"><button type="submit" class="mobile-button">Kontakt</button></a>
                 </div>
             </div>
         </div>
@@ -69,143 +63,143 @@
                 Produkte
             </div>
 
-        <div class="product-container">
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Natasha.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Natasha
+            <div class="product-container">
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Natasha.png">
                     </div>
-                    <div class="product-info">
-                        1'399.-
+                    <div class="info">
+                        <div class="product-name">
+                            Natasha
+                        </div>
+                        <div class="product-info">
+                            1'399.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Samuel.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Samuel
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Samuel.png">
                     </div>
-                    <div class="product-info">
-                        499.-
+                    <div class="info">
+                        <div class="product-name">
+                            Samuel
+                        </div>
+                        <div class="product-info">
+                            499.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Felix.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Felix
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Felix.png">
                     </div>
-                    <div class="product-info">
-                        999.-
+                    <div class="info">
+                        <div class="product-name">
+                            Felix
+                        </div>
+                        <div class="product-info">
+                            999.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Jonny.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Jonny
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Jonny.png">
                     </div>
-                    <div class="product-info">
-                        399.-
+                    <div class="info">
+                        <div class="product-name">
+                            Jonny
+                        </div>
+                        <div class="product-info">
+                            399.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Denovo.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Denovo
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Denovo.png">
                     </div>
-                    <div class="product-info">
-                        549.-
+                    <div class="info">
+                        <div class="product-name">
+                            Denovo
+                        </div>
+                        <div class="product-info">
+                            549.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Steve.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Steve
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Steve.png">
                     </div>
-                    <div class="product-info">
-                        599.-
+                    <div class="info">
+                        <div class="product-name">
+                            Steve
+                        </div>
+                        <div class="product-info">
+                            599.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Camille.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Camille
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Camille.png">
                     </div>
-                    <div class="product-info">
-                        1'299.-
+                    <div class="info">
+                        <div class="product-name">
+                            Camille
+                        </div>
+                        <div class="product-info">
+                            1'299.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
-            </div>
 
-            <div class="product-item">
-                <div class="product-picture">
-                    <img class="product-img" src="../../Source/Produkte-liquid/Pierre.png">
-                </div>
-                <div class="info">
-                    <div class="product-name">
-                        Pierre
+                <div class="product-item">
+                    <div class="product-picture">
+                        <img class="product-img" src="../../Source/Produkte-liquid/Pierre.png">
                     </div>
-                    <div class="product-info">
-                        899.-
+                    <div class="info">
+                        <div class="product-name">
+                            Pierre
+                        </div>
+                        <div class="product-info">
+                            899.-
+                        </div>
+                        <form action="#">
+                            <button type="submit" class="product-button">Mehr</button>
+                        </form>
                     </div>
-                    <form action="#">
-                        <button type="submit" class="product-button">Mehr</button>
-                    </form>                
                 </div>
             </div>
-        </div>
         </div>
     </main>
 
