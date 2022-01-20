@@ -84,8 +84,8 @@
     flex-direction: column;
     background: #23272C;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.6);
-    transition:.2s all; 
     margin: 10px;
+    transition:.2s all; 
 }
 .news-box:hover{
     transition: .2s all;
