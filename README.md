@@ -8,9 +8,3 @@ Mein Programm enthält noch ein paar Fehler, jedoch find ich es ein gelungenes P
 Für die Hintergründe habe ich diverse Bilder von Unsplash benutz.
 
 https://unsplash.com/
-
-Die Personen stammen von der Seite meines ehemaligen Lehrlingsbetriebes.
-
-https://www.avs-systeme.com/de/
-
-(Bitte entschuldigt das benutzen der Bilder.)
