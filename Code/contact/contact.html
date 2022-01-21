@@ -103,11 +103,15 @@
                         </svg>
                     </div>
                     <div>
-                        <form class="form-container">
-                            <input class="form-item" name="name" type="text" placeholder="Name" />
-                            <input class="form-item" name="email" type="text" placeholder="Email" />
-                            <textarea class="form-item" maxlength="1000" name="text" type="text" placeholder="Text"></textarea>
-                            <input class="form-item-send" type="submit" value="Senden" />
+                        <form class="form-container" action="https://formlog.offline.ch/log" >
+                            <label for="name"></label>
+                            <label for="email"></label>
+                            <label for="text"></label>
+
+                            <input id="name" class="form-item" name="name" type="text" placeholder="Name" />
+                            <input id="email" class="form-item" name="email" type="text" placeholder="Email" />
+                            <textarea id="text" class="form-item" name="text" maxlength="1000" type="text" placeholder="Text"></textarea>
+                            <input class="form-item-send" name type="submit" value="Senden" />
                         </form>
                     </div>
                 </div>

@@ -95,7 +95,6 @@
     50% { color: #f3674e; }
     100%{ color: #F84B34; }
 }
-
 /*Responsive //////////////////////////////////////////////////*/
 @media only screen and (max-width:1200px) {
     .product-item{

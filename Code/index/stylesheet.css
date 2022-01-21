@@ -196,7 +196,6 @@
     background-image: url(../../Source/Hintergrund/h4.png);
     height: 100%;
 }
-
 /*Responsive //////////////////////////////////////////////////*/
 @media only screen and (max-width:1400px) {
     .news-container{
