@@ -9,9 +9,9 @@ Bei der Abgabe entschloss ich mich dazu, dass komplette Bootstrap-Framework zu l
 deswegen habe ich nun mehrere “Stylesheets“.
 
 
-Für die Hintergründe habe ich diverse Bilder von Unsplash benutz.
+Für die Hintergründe habe ich diverse Bilder von Unsplash benutz;
 https://unsplash.com/
 
-Die Beispielperson stammt von "ThisPersonDoesNotExist".
-https://thispersondoesnotexist.com/
 
+Die Beispielperson stammt von "ThisPersonDoesNotExist";
+https://thispersondoesnotexist.com/
