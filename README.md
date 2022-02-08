@@ -6,7 +6,7 @@ In dieser Arbeit verbesserte ich meine Kenntnisse in HTML und CSS.
 Mein Programm enthält noch ein paar Fehler, jedoch find ich es ein gelungenes Projekt.
 Zu Beginn habe ich Bootstrap als eine Vereinfachung mit implementiert.
 Bei der Abgabe entschloss ich mich dazu, dass komplette Bootstrap-Framework zu löschen, 
-deswegen habe ich nun mehrere “Stylesheets“.
+deswegen habe ich nun mehrere “Stylesheets“. Auch die Ordner-Struktur ist fehlerhaft, zum Glück 
 
 
 Für die Hintergründe habe ich diverse Bilder von Unsplash benutz;
