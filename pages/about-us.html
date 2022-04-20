@@ -8,52 +8,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!--CSS Link-->
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="stylesheet" href="../style_root.css">
+    <link rel="stylesheet" href="../css/style_root.css">
+    <script type="module" src="../js/main.js"></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 
-    <!--Browser-Icon + Titel-->
-    <link rel="shortcut icon" href="../../Source/favicon.ico"/>
+    <link rel="shortcut icon" href="./img/favicon.ico" />
     <title>Schuber Lampen</title>
 </head>
 
 <body class="bg-dark-gray">
-    <header>
-        <div class="header d-flex">        
-        </div>
-        <a href="../../Code/index/index.html">
-            <img class="logo" src="../../Source/logo.png" alt="logo">
-        </a>
-    </header>
-
-    <nav class="bg-gray">
-        <div class="shadow-bottom">
-            <div class="container">
-                <div class="navigation-container">
-                    <a href="../products/products.html" class="navigation-item">Produkte</a>
-                    <a href="../service/service.html" class="navigation-item">Dienstleistungen</a>
-                    <a href="../about-us/about-us.html" class="navigation-item">Über uns</a>
-                    <a href="../contact/contact.html" class="navigation-item">Kontakt</a>
-                </div>
-
-                <div class="mobile-container">
-                    <a href="../index/index.html">
-                        <button type="button" class="mobile-button">
-                            <img class="logo-small-mobile" src="../../Source/logo-small.png" alt="logo-small">
-                        </button>
-                    </a>
-                    <a style="text-decoration: none;" href="../products/products.html"><button type="submit" class="mobile-button">Produkte</button></a>
-                    <a style="text-decoration: none;" href="../service/service.html"><button type="submit" class="mobile-button">Dienstleistungen</button></a>
-                    <a style="text-decoration: none;" href="../about-us/about-us.html"><button type="submit" class="mobile-button">Über uns</button></a>
-                    <a style="text-decoration: none;" href="../contact/contact.html"><button type="submit" class="mobile-button">Kontakt</button></a>
-                </div>
-            </div>
-        </div>
-    </nav>
+    <load-header></load-header>
+    <load-nav></load-nav>
 
     <main>
         <div class="container white">

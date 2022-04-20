@@ -3,14 +3,17 @@ body {
     overflow: overlay;
     font-family: 'system-ui', 'Assistant', sans-serif !important; 
 }
+
 button {
     font-family: 'system-ui', 'Assistant', sans-serif !important; 
 }
+
 .container{
     padding: 0px 0px !important;
     margin-left: auto;
     margin-right: auto;
 }
+
 @media (min-width: 576px){
     .container{
         max-width: 540px;
@@ -42,7 +45,7 @@ header {
 }
 .header {
     height: 500px;
-    background-image: url(../Source/Produkte/Edan.jpg);
+    background-image: url("../img/Produkte/Edan.jpg");
     background-position: center 1390px;
     align-items: center;
     opacity: 0.5;
@@ -96,6 +99,7 @@ header {
     width: 60px;
     align-items: center;
 }
+
 /* footer //////////////////////////////////////////////////*/
 .footer {
     display: flex;
@@ -167,9 +171,10 @@ p{
 .footer-bottom {
     display: flex;
     justify-content: center;
+    align-items: center;
     color: white;
-    margin: 40px 40px;
     font-weight: normal;
+    height: 80px;
 }
 /*Responsive //////////////////////////////////////////////////*/
 @media only screen and (max-width:1200px) {

@@ -15,3 +15,9 @@ https://unsplash.com/
 
 Die Beispielperson stammt von "ThisPersonDoesNotExist";
 https://thispersondoesnotexist.com/
+
+- Edit 20.04.2022:
+    Arbeit an besserer Syntax...
+    + sass
+    + folder struct
+    
